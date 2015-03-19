@@ -11,9 +11,6 @@ body, button, input, select, textarea { font-family:sans-serif; color:#222; }
 h1, h2, h3, h4, h5, h6 { margin:0; font-size:inherit; font-weight:600; }
 p { margin:0; font-size:inherit; }
 
-/*::-moz-selection { background:#e57300; color:#fff; text-shadow:none; }*/
-/*::selection { background:#e57300; color:#fff; text-shadow:none; }*/
-
 a { color:#444; }
 a:hover, a:active { outline:0; }
 
