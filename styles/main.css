@@ -23,7 +23,6 @@ body {
 }
 
 #header {
-  width: 400px;
   margin: 0 auto 50px;
 
   font-size: 24px;
@@ -97,4 +96,160 @@ body {
 
   font-weight: bold;
   text-transform: uppercase;
+}
+.mainFeature-subSection-blurb code {
+  padding: 3px 5px;
+  font-size: 16px;
+  background: #eee;
+  border-radius: 3px;
+}
+
+#more-features {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.secondaryFeature {
+  float: left;
+  width: 378px;
+}
+.secondaryFeature + .secondaryFeature {
+  margin-left: 24px;
+}
+.secondaryFeature-image {
+  position: relative;
+  display: block;
+  width: 378px;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 24px;
+
+  background: #ccc;
+  border-radius: 3px;
+}
+.secondaryFeature-image > img {
+  display: block;
+  width: 378px;
+  height: 200;
+}
+.secondaryFeature-image::before {
+  content: 'FPO';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 378px;
+  height: 100px;
+  margin: auto;
+
+  font-size: 100px;
+  line-height: 140px;
+  color: rgba(0,0,0,0.4);
+  font-weight: bold;
+  text-align: center;
+
+  transform: rotate(-30deg);
+}
+.secondaryFeature-image::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  box-shadow: inset 0 0 1px rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+#download {
+  padding: 70px 0;
+  background: #333;
+
+  color: #fff;
+  text-align: center;
+}
+#download .button {
+  display: inline-block;
+  position: relative;
+  height: 42px;
+  min-width: 72px;
+  padding: 10px 17px 7px;
+
+  cursor: pointer;
+  white-space: nowrap;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+  -webkit-appearance: none;
+
+  border: 1px solid #292929;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+
+  font-family: "DIN Web", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 1px rgba(0,0,0,0.2);
+
+  -webkit-user-select: none;
+     -moz-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+
+  background: #dc7003;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dc7003), color-stop(100%, #d15403));
+  background: -webkit-linear-gradient(top, #dc7003, #d15403);
+  background:    -moz-linear-gradient(top, #dc7003, #d15403);
+  background:     -ms-linear-gradient(top, #dc7003, #d15403);
+  background:      -o-linear-gradient(top, #dc7003, #d15403);
+  background:         linear-gradient(top, #dc7003, #d15403);
+
+  -webkit-box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 1px rgba(0,0,0,0.2);
+     -moz-box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 1px rgba(0,0,0,0.2);
+          box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 1px rgba(0,0,0,0.2);
+}
+#download .button:active {
+  padding-top: 11px;
+  padding-bottom: 6px;
+
+  background: #d86903;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d86903), color-stop(100%, #cd4f03));
+  background: -webkit-linear-gradient(top, #d86903, #cd4f03);
+  background:    -moz-linear-gradient(top, #d86903, #cd4f03);
+  background:     -ms-linear-gradient(top, #d86903, #cd4f03);
+  background:      -o-linear-gradient(top, #d86903, #cd4f03);
+  background:         linear-gradient(top, #d86903, #cd4f03);
+}
+#download .button:hover,
+#download .button:focus {
+  background: #eb8408;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eb8408), color-stop(100%, #e26a08));
+  background: -webkit-linear-gradient(top, #eb8408, #e26a08);
+  background:    -moz-linear-gradient(top, #eb8408, #e26a08);
+  background:     -ms-linear-gradient(top, #eb8408, #e26a08);
+  background:      -o-linear-gradient(top, #eb8408, #e26a08);
+  background:         linear-gradient(top, #eb8408, #e26a08);
+}
+
+#footer {
+  background: #333;
+}
+.footer-content {
+  width: 780px;
+  margin: auto;
+  padding: 30px;
+
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+
 }
