@@ -164,7 +164,7 @@ body {
 }
 
 #download {
-  padding: 70px 0;
+  padding: 70px 0 30px 0;
   background: #333;
 
   color: #fff;
@@ -238,6 +238,21 @@ body {
   background:     -ms-linear-gradient(top, #eb8408, #e26a08);
   background:      -o-linear-gradient(top, #eb8408, #e26a08);
   background:         linear-gradient(top, #eb8408, #e26a08);
+}
+
+#links {
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+#links a {
+  color: #fff;
+}
+#links a:hover {
+  color: #ddd;
+}
+#links a:active {
+  color: #aaa;
 }
 
 #footer {
