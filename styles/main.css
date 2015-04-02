@@ -58,36 +58,6 @@ body {
   width: 400px;
   height: 400px;
 }
-.mainFeature-image::before {
-  content: 'FPO';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 400px;
-  height: 200px;
-  margin: auto;
-
-  font-size: 200px;
-  line-height: 240px;
-  color: rgba(0,0,0,0.4);
-  font-weight: bold;
-  text-align: center;
-
-  transform: rotate(-30deg);
-}
-.mainFeature-image::after {
-  content: ' ';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  box-shadow: inset 0 0 1px rgba(0,0,0,0.2);
-  border-radius: 3px;
-}
 .mainFeature-subSection + .mainFeature-subSection {
   margin-top: 48px;
 }
@@ -131,36 +101,6 @@ body {
   display: block;
   width: 378px;
   height: 200;
-}
-.secondaryFeature-image::before {
-  content: 'FPO';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 378px;
-  height: 100px;
-  margin: auto;
-
-  font-size: 100px;
-  line-height: 140px;
-  color: rgba(0,0,0,0.4);
-  font-weight: bold;
-  text-align: center;
-
-  transform: rotate(-30deg);
-}
-.secondaryFeature-image::after {
-  content: ' ';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  box-shadow: inset 0 0 1px rgba(0,0,0,0.2);
-  border-radius: 3px;
 }
 
 #download {
