@@ -88,7 +88,7 @@ body {
 .secondaryFeature-image {
   position: relative;
   display: block;
-  width: 378px;  /* TODO: Why do we need to subtract 2px? */
+  width: 376px;  /* TODO: Why do we need to subtract 2px? */
   height: 198px;  /* TODO: Why do we need to subtract 2px? */
   overflow: hidden;
   margin-bottom: 24px;
