@@ -24,8 +24,8 @@
     <img src="images/logo_reflective.png" alt="" width="120" height="200" />
   </div>
 
-  <div id="main">
-    <header id="header">
+  <header id="header">
+    <div class="container">
       <h1 class="header-title">
         GitUp
       </h1>
@@ -34,9 +34,11 @@
         The Git interface you've been missing<br/>
         all your life has finally arrived.
       </p>
-    </header>
+    </div>
+  </header>
 
-    <section class="mainFeature" id="live-map">
+  <section class="mainFeature" id="live-map">
+    <div class="container">
       <figure class="mainFeature-image">
         <img src="images/map.gif" alt="" />
       </figure>
@@ -59,9 +61,11 @@
           Highlight a commit and hit the spacebar to quickly see its message and diff.
         </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="mainFeature" id="undo-redo">
+  <section class="mainFeature" id="undo-redo">
+    <div class="container">
       <figure class="mainFeature-image">
         <img src="images/snapshots.gif" alt="" />
       </figure>
@@ -91,9 +95,11 @@
           <!--As long as GitUp is running, it builds a Time-Machine-like history of changes made to your repo, allowing you to step backwards to any point in time.-->
         </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="mainFeature" id="quick-keys">
+  <section class="mainFeature" id="quick-keys">
+    <div class="container">
       <figure class="mainFeature-image">
         <img src="images/editing.gif" alt="" />
       </figure>
@@ -109,7 +115,6 @@
         <p class="mainFeature-subSection-blurb">
           GitUp puts the power in your fingertips.<br/>
           Surf your repo, make changes, and rewind it all back with a few short keystrokes.
-
         </p>
       </div>
       <div class="mainFeature-subSection">
@@ -118,9 +123,11 @@
           You're here to write code, not meditate on arcane Git incantations. <!--GitUp lets you focus on what's important.-->
         </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="more-features">
+  <section id="more-features">
+    <div class="container">
       <section class="secondaryFeature" id="speed">
         <figure class="secondaryFeature-image">
           <img src="images/speed.png" alt="" />
@@ -142,44 +149,49 @@
           Search branches, tags and every commit in the repo by message or author and jump to results instantly.
         </p>
       </section>
-    </section>
 
-    <section id="pro">
-      <h3 class="secondaryFeature-title">Built For Professional Software Engineers</h3>
-      <p class="secondaryFeature-blurb">
-        Make no mistake, GitUp was built with serious software engineering in mind. Because it bypasses the Git binary tool and interacts directly with the repo database, GitUp is faster than the command line for many operations, and vastly more reliable than any other Git clients.
-      </p>
-    </section>
+      <section class="secondaryFeature" id="pros">
+        <h3 class="secondaryFeature-title">Built For Professional Engineers</h3>
+        <p class="secondaryFeature-blurb">
+          <!-- Make no mistake, GitUp was built with serious software engineering in mind. Because it bypasses the Git binary tool and interacts directly with the repo database, GitUp is faster than the command line for many operations, and vastly more reliable than any other Git clients. -->
 
-    <section id="beginner">
-      <h3 class="secondaryFeature-title">Beginners Welcome</h3>
-      <p class="secondaryFeature-blurb">
-        GitUp's Live Map and clutter-free UI make an ideal learning environment for Git newcomers. Rely on Undo and Snapshots to safely experiment as you become more proficient with Git.
-      </p>
-    </section>
-  </div>
+          By bypassing the Git binary tool and interacting directly with the repo database, GitUp is more reliable and faster than other Git clients, even the command line.
+        </p>
+      </section>
 
-  <section id="download">
-    <p>
-      GitUp is available now as pre-release software. It's free to download and use.
-    </p>
-    <p>
-      Some features require creating a free account. We won't sell your email address or spam you, scout's honor.
-    </p>
-    <a class="button" href="http://forums.gitup.co/t/getting-started-with-gitup-pre-release/30">Git it!</a>
-    <p id=requirements>
-      (Mac OS X 10.8 or later&mdash;OS X Yosemite recommended)
-    </p>
+      <section class="secondaryFeature" id="beginner">
+        <h3 class="secondaryFeature-title">Beginners Welcome</h3>
+        <p class="secondaryFeature-blurb">
+          <!-- GitUp's Live Map and clutter-free UI make an ideal learning environment for Git newcomers. Rely on Undo and Snapshots to safely experiment as you become more proficient with Git. -->
+
+          GitUp's Live Map and clutter-free UI make an ideal learning environment for Git newcomers, and the Undo &amp; Snapshots features let you learn and experiement safely.
+        </p>
+      </section>
+    </div>
   </section>
 
-  <section id="links">
-    <p>
-      Read the <a href="http://forums.gitup.co/c/docs">docs</a> and visit the <a href="http://forums.gitup.co/">community forums</a> for support &amp; feedback.
-    </p>
+  <section id="download">
+    <div class="container">
+      <h4 class="download-title">
+        GitUp is available now as pre-release software. It's free to download and use.
+      </h4>
+
+      <a class="button" href="http://forums.gitup.co/t/getting-started-with-gitup-pre-release/30">Git it!</a>
+
+      <p class="download-fineprint">
+        Requires Mac OS X 10.8 or later&mdash;OS X Yosemite recommended.<br/>
+        Some features require creating a free account.
+        We won't sell your email address or spam you, scout's honor.
+      </p>
+
+      <p>
+        Read the <a href="http://forums.gitup.co/c/docs">docs</a> and visit the <a href="http://forums.gitup.co/">community forums</a> for support &amp; feedback.
+      </p>
+    </div>
   </section>
 
   <footer id="footer">
-    <div class="footer-content">
+    <div class="container">
       <!--<p>
         Website by Jason Eberle.
       </p>-->
