@@ -248,6 +248,7 @@ body {
 
 #screencast {
   text-align: center;
+  margin-bottom: 20px;
 }
 video {
   border:1px solid #ccc; 
