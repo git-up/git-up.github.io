@@ -245,3 +245,10 @@ body {
   right: 10px;
   line-height: 0;
 }
+
+#screencast {
+  text-align: center;
+}
+video {
+  border:1px solid #ccc; 
+}
