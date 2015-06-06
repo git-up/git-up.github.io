@@ -244,6 +244,7 @@ body {
   top: 10px;
   right: 10px;
   line-height: 0;
+  visibility: hidden;
 }
 
 #screencast {
