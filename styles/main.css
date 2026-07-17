@@ -161,6 +161,9 @@ body {
   
   opacity: 0.5;
 }
+#retcon .callout-fineprint {
+  opacity: 0.5;
+}
 
 .callout a {
   color: inherit;
@@ -173,7 +176,6 @@ body {
   display: inline-block;
   position: relative;
   height: 52px;
-  min-width: 172px;
   padding: 15px 26px 12px;
 
   cursor: pointer;
@@ -265,4 +267,8 @@ a.button {
 }
 video {
   border:1px solid #ccc; 
+}
+
+.system-font {
+  font-family: system-ui
 }
