@@ -129,6 +129,9 @@ body {
   
   color: #fff;
 }
+#retcon {
+  background: linear-gradient(#f2eeff, #ffffff);
+}
 .callout {
   padding: 80px 30px 105px;
 
@@ -210,6 +213,12 @@ body {
 
   filter: brightness(0.9) saturate(1.4);
 }
+
+.callout .retcon-button {
+  border-color: #622ecf;
+  
+  background: #6e41d4;
+  background: linear-gradient(#a773f6, #5f31c7);
 }
 
 #links {
