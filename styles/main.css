@@ -8,8 +8,9 @@ body {
 }
 
 #hero {
-  padding-top: 70px;
-  background: #333;
+  padding-top: 60px;
+  
+  background: linear-gradient(rgba(255, 0, 24, 0.11), transparent);
 }
 #hero img {
   display: block;
@@ -23,17 +24,20 @@ body {
 }
 
 #header {
-  padding: 50px 30px;
+  padding: 10px 30px 50px;
 
   font-size: 24px;
   line-height: 32px;
   text-align: center;
 }
 .header-title {
-  margin: 0 0 12px;
+  margin: 0 0 25px;
 
   font-size: 32px;
   font-weight: bold;
+}
+.header-subtitle {
+  margin-bottom: 70px;
 }
 
 .mainFeature {
