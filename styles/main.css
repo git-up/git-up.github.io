@@ -8,8 +8,9 @@ body {
 }
 
 #hero {
-  padding-top: 70px;
-  background: #333;
+  padding-top: 60px;
+  
+  background: linear-gradient(rgba(255, 0, 24, 0.11), transparent);
 }
 #hero img {
   display: block;
@@ -23,17 +24,20 @@ body {
 }
 
 #header {
-  padding: 50px 30px;
+  padding: 10px 30px 85px;
 
   font-size: 24px;
   line-height: 32px;
   text-align: center;
 }
 .header-title {
-  margin: 0 0 12px;
+  margin: 0 0 25px;
 
   font-size: 32px;
   font-weight: bold;
+}
+.header-subtitle {
+  margin-bottom: 30px;
 }
 
 .mainFeature {
@@ -118,98 +122,109 @@ body {
 }
 
 #download {
-  padding: 50px 30px;
-  background: #333;
-
+  margin-top: 80px;
+  
+  background: black;
+  background: linear-gradient(#5d0021, #26060d);;
+  
   color: #fff;
+}
+#retcon {
+  background: linear-gradient(#f2eeff, #ffffff);
+}
+.callout {
+  padding: 80px 30px 105px;
+
   text-align: center;
 }
-.download-title {
+.callout .container {
+  width: 560px;
+}
+.callout-icon {
+  margin: 5px 0 5px;
+}
+.callout-title {
+  margin-bottom: 30px;
+  
+  font-size: 25px;
+}
+.callout-headline {
+  line-height: 1.5;
+  
   margin: 0 0 10px;
 }
-.download-fineprint {
+.callout-fineprint {
   width: 480px;
-  margin: 20px auto;
+  margin: 17px auto 50px;
 
   font-size: 14px;
+  
+  opacity: 0.5;
+}
+#retcon .callout-fineprint {
+  opacity: 0.5;
 }
 
-#download a {
-  color: #fff;
+.callout a {
+  color: inherit;
 }
-#download a:hover {
+.callout a:hover {
   color: #ddd;
 }
 
-#download .button {
+.button {
   display: inline-block;
   position: relative;
   height: 52px;
-  min-width: 172px;
-  margin: 40px 0 20px;
-  padding: 15px 17px 12px;
+  padding: 15px 26px 12px;
 
   cursor: pointer;
   white-space: nowrap;
 
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 
   -webkit-appearance: none;
 
-  border: 1px solid #292929;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  border: 1px solid #8b1e00;
+  border-radius: 7px;
 
   font-family: "DIN Web", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 23px;
-  color: #fff;
   font-weight: 700;
-  text-decoration: none;
   text-align: center;
   text-shadow: 0 1px rgba(0,0,0,0.2);
 
-  -webkit-user-select: none;
-     -moz-user-select: none;
-       -o-user-select: none;
-          user-select: none;
+  user-select: none;
 
-  background: #dc7003;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dc7003), color-stop(100%, #d15403));
-  background: -webkit-linear-gradient(top, #dc7003, #d15403);
-  background:    -moz-linear-gradient(top, #dc7003, #d15403);
-  background:     -ms-linear-gradient(top, #dc7003, #d15403);
-  background:      -o-linear-gradient(top, #dc7003, #d15403);
-  background:         linear-gradient(top, #dc7003, #d15403);
+  background: #e33970;
+  background: linear-gradient(#ff4c74, #d3244b);
 
-  -webkit-box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 1px rgba(0,0,0,0.2);
-     -moz-box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 1px rgba(0,0,0,0.2);
-          box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 1px rgba(0,0,0,0.2);
+  box-shadow: inset 0 1px rgba(255,255,255,0.1), 0 1px rgba(0,0,0,0.2);
 }
-#download .button:active {
+a.button {
+  color: #fff;
+  text-decoration: none;
+}
+.callout .button {
+  margin-top: 29px;
+}
+.button:hover,
+.button:focus {
+  filter: brightness(1.1);
+}
+.button:active {
   padding-top: 16px;
   padding-bottom: 11px;
 
-  background: #d86903;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d86903), color-stop(100%, #cd4f03));
-  background: -webkit-linear-gradient(top, #d86903, #cd4f03);
-  background:    -moz-linear-gradient(top, #d86903, #cd4f03);
-  background:     -ms-linear-gradient(top, #d86903, #cd4f03);
-  background:      -o-linear-gradient(top, #d86903, #cd4f03);
-  background:         linear-gradient(top, #d86903, #cd4f03);
+  filter: brightness(0.9) saturate(1.4);
 }
-#download .button:hover,
-#download .button:focus {
-  background: #eb8408;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eb8408), color-stop(100%, #e26a08));
-  background: -webkit-linear-gradient(top, #eb8408, #e26a08);
-  background:    -moz-linear-gradient(top, #eb8408, #e26a08);
-  background:     -ms-linear-gradient(top, #eb8408, #e26a08);
-  background:      -o-linear-gradient(top, #eb8408, #e26a08);
-  background:         linear-gradient(top, #eb8408, #e26a08);
+
+.callout .retcon-button {
+  border-color: #622ecf;
+  
+  background: #6e41d4;
+  background: linear-gradient(#a773f6, #5f31c7);
 }
 
 #links {
@@ -252,4 +267,8 @@ body {
 }
 video {
   border:1px solid #ccc; 
+}
+
+.system-font {
+  font-family: system-ui
 }
